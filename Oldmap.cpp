@@ -34,7 +34,7 @@ int main()
     {
         auto key_pair = entry.second;
         std::cout << "{" << key_pair.first << "," << key_pair.second << "}, "
-                  << entry.second << '\n';
+                  << entry.first << '\n';
     }
 	return 0;
 }
