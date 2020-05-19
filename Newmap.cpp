@@ -30,11 +30,6 @@ int main()
     };
 
     std::cout << "Player Price vs Current Value" << std::endl;
-         for (const auto &entry: FPL_Team)
-    {
-        auto key_pair = entry.second;
-        std::cout << "{" << key_pair.first << "," << key_pair.second << "}, "
-                  << entry.second << '\n';
-    }
+    std::cout << FPL_Team.at("Pope");
 	return 0;
 }
